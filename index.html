@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Balloon Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Speech Balloon Generator</h1>
+
+  <!-- Image upload -->
+  <label>Upload image:</label>
+  <input type="file" id="upload" accept="image/*"><br><br>
+
+  <!-- Text boxes -->
+  <div id="texts-container">
+    <button id="add-text">Add text box</button><br><br>
+  </div>
+
+  <!-- Balloon options -->
+  <label>
+    <input type="checkbox" id="tail"> Include balloon tail
+  </label><br><br>
+
+  <label>Balloon size:</label>
+  <input type="range" id="size" min="50" max="300" value="150"><br><br>
+
+  <!-- Generate button -->
+  <button id="generate">Generate images</button><br><br>
+
+  <!-- Canvas for preview -->
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
