@@ -358,3 +358,10 @@ canvas {
   }
   .ad { min-height: 120px; }
 }
+.side-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
