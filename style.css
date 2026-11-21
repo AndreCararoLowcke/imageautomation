@@ -365,3 +365,21 @@ canvas {
   border-radius: 16px;
   border: 1px solid var(--border);
 }
+.story-card {
+  display: block;
+  width: 100%;
+  max-width: 720px;        /* tamanho máximo no computador */
+  margin: 0 auto;          /* centraliza */
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--panel-2);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.story-card img {
+  display: block;
+  width: 100%;             /* acompanha a largura do quadro */
+  height: auto;            /* mantém a proporção, sem cortar */
+}
